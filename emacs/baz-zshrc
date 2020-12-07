@@ -1,0 +1,2 @@
+ediff() { emacs --eval "(progn (find-file \"$1\") (find-file \"$2\") (ediff-buffers \"$1\" \"$2\"))" }
+egdb () { emacs --eval "(realgud:gdb \"gdb $*\")" }
